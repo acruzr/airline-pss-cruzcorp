@@ -11,4 +11,11 @@
 	<name>pss</name>
 	<description>Demo project for Spring Boot</description>
 
+	<modules>
+		<module>book-service</module>
+		<module>checkin-service</module>
+		<module>fare-service</module>
+		<module>search-service </module>
+		<module>website</module>
+	</modules>
 </project>
