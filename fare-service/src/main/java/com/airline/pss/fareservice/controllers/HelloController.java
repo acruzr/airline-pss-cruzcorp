@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class HelloController {
 
-  @Value("${message}")
+  @Value("${message:default}")
   private String testProperty;
 
   @GetMapping("/test")

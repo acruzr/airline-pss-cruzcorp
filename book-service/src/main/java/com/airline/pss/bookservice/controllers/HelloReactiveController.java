@@ -13,7 +13,7 @@ public class HelloReactiveController {
 
   @Autowired
   private Sender sender;
-  @Value("${message}")
+  @Value("${message:default}")
   private String property;
 
   @GetMapping("/reactiveTest")

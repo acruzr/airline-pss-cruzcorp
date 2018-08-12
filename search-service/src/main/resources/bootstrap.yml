@@ -6,6 +6,6 @@ spring:
     name: search-service
   cloud:
     config:
-      uri: http://localhost:8080
+      uri: http://localhost:8088
 
 
