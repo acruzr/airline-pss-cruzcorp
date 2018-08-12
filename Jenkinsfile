@@ -18,10 +18,10 @@ pipeline {
 	      echo 'Deploying...'
 	    }
 	  }
-	  post {
+    }
+    post {
 	    always {
 	      junit: 'build/reports/**/*.xml'
 	    }
 	  }
-    }
 }
